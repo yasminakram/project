@@ -1,0 +1,251 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-size: 27px;
+}
+ul{
+    list-style: none;
+}
+a{
+     text-decoration: none;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+/* header start*/
+header{
+  height:150vh;  
+  background: url(OIP\ \(2\).jpeg) center center/cover no-repeat;
+  background-blend-mode: darken;
+  position: relative;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+}
+
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#navbar img{ 
+    width: 60px;
+
+}
+
+#navbar ul{
+    display: flex;
+    margin-right: 60px;
+}
+#navbar ul li a {
+    padding: 20px 35px;
+    color:rgb(200, 203, 219);
+    font-weight: 500;
+
+}
+#navbar ul li a:hover{
+    border-bottom: 2px solid;
+     color:white;
+}
+header .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+header .content p{
+    margin:20px 0 40px;
+}
+header::before{
+   content:"";
+   position:absolute;
+   top:0;
+   left:0;
+   height: 100%;
+   weidth:100%;
+   background: rgb(0,0,0.7);
+ 
+}
+header .content h1{
+    color: rgb(197, 200, 218);
+
+}
+
+/*header end*/
+
+/*About start*/
+#ABOUT {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ABOUT .title{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#ABOUT h2,h3,h4 {
+    font-size: 35px;
+    color: rgb(44, 42, 68);
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+#ABOUT p {
+    font-size: 20px;
+    color:rgb(69, 65, 82);
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+/*About end*/
+/*header start2*/
+
+h5{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color:rgb(33, 27, 72);
+    font-size: 45px;
+    text-decoration:underline ;
+}
+p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 35px;
+    color:rgb(11, 2, 40);
+
+}
+p1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-left: 25px;
+    font-size: 26px;
+    
+}
+p2 {
+    margin-top: 35px;
+    margin-left: 35px;
+    font-size: 30px;
+    color:rgb(81, 82, 103);
+}
+form { 
+margin-top: 10px;
+margin-left: 45px;
+
+}
+/*header end2*/
+/*header start*/
+
+ h6 {
+    margin-top: 35px;
+    margin-left: 35px;
+    justify-content: center;
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 35px;
+    color:rgb(190, 177, 98);
+
+}
+ p4 {
+    margin-top: 100px;
+    margin-left: 520px;
+    color:rgb(65, 67, 85);
+   font-size: 30px;
+
+ }
+ form{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 85px;
+ }
+ h7,h8 {
+ margin-left: 230px;
+ margin-top: 200px;
+ margin-bottom: 200px;
+ font-size: 33px;
+ color:rgb(190, 177, 92);
+
+ }
+ p5,p6,p7,p8 {
+    margin-left: 300px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    font-size: 30px;
+    color:rgb(72, 76, 91)
+   
+     }
+      
+ h9 { 
+  margin-bottom: 150px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+   text-align: center;
+   text-decoration-line:underline;
+   font-size: 35px;
+   color:rgb(120, 104, 10); 
+   padding-top: 80px ;
+    }
+/*about start*/
+.about{
+    background-color: gainsboro;
+}
+    .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        text-align: center;
+        color: rgb(57, 57, 57);
+        
+    }
+    
+     .COLLECTION {
+        margin:30px auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        cursor: pointer;
+        box-shadow: 5px 5px 30px 7px ;
+        transition: 0.4s;
+     }
+     .COLLECTION_image{
+        width: inherit;
+        height: inherit;
+
+     }
+     .COLLECTION_image img{
+        width: inherit;
+        height: inherit;
+        border-radius: 20px;
+        object-fit: cover;
+     }
+     .COLLECTION_title{
+        text-align: center;
+         font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-weight: 200;
+        text-transform: capitalize;
+        font-weight: bold;
+     }
+     .COLLECTION:hover{
+        transform: scale(0.9,0.9);
+        box-shadow: 5px 5px 30px 15px rgba(0, 0,0 , 0.25),-5px -5px 30px 15px rgba(0, 0,0 , 0.22);
+     }
+
+
+
+      
